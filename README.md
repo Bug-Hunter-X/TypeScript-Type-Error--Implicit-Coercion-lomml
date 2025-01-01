@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in TypeScript: implicit type coercion leading to runtime errors. The `add` function is declared to accept two numbers, but the code attempts to pass a string and a number.  TypeScript's type system doesn't prevent this. The solution highlights how to enforce stricter type checking to catch such errors at compile time.
